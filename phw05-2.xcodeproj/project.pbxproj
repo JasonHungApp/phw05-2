@@ -13,10 +13,13 @@
 		F3216BF72B1387F300B6A79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3216BF52B1387F300B6A79C /* Main.storyboard */; };
 		F3216BF92B1387F400B6A79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3216BF82B1387F400B6A79C /* Assets.xcassets */; };
 		F3216BFC2B1387F400B6A79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3216BFA2B1387F400B6A79C /* LaunchScreen.storyboard */; };
+		F3216C042B13B10E00B6A79C /* MongoliaFlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3216C032B13B10E00B6A79C /* MongoliaFlagViewController.swift */; };
+		F3216C062B13B54A00B6A79C /* flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3216C052B13B54A00B6A79C /* flag.swift */; };
+		F3216C082B13D48C00B6A79C /* BrasilFlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3216C072B13D48C00B6A79C /* BrasilFlagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3216BEC2B1387F300B6A79C /* phw04-3-1-UIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "phw04-3-1-UIBezierPath.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3216BEC2B1387F300B6A79C /* phw05-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "phw05-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3216BEF2B1387F300B6A79C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3216BF12B1387F300B6A79C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F3216BF32B1387F300B6A79C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		F3216BF82B1387F400B6A79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3216BFB2B1387F400B6A79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3216BFD2B1387F400B6A79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3216C032B13B10E00B6A79C /* MongoliaFlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoliaFlagViewController.swift; sourceTree = "<group>"; };
+		F3216C052B13B54A00B6A79C /* flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flag.swift; sourceTree = "<group>"; };
+		F3216C072B13D48C00B6A79C /* BrasilFlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrasilFlagViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		F3216BED2B1387F300B6A79C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3216BEC2B1387F300B6A79C /* phw04-3-1-UIBezierPath.app */,
+				F3216BEC2B1387F300B6A79C /* phw05-1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +69,9 @@
 				F3216BF82B1387F400B6A79C /* Assets.xcassets */,
 				F3216BFA2B1387F400B6A79C /* LaunchScreen.storyboard */,
 				F3216BFD2B1387F400B6A79C /* Info.plist */,
+				F3216C032B13B10E00B6A79C /* MongoliaFlagViewController.swift */,
+				F3216C052B13B54A00B6A79C /* flag.swift */,
+				F3216C072B13D48C00B6A79C /* BrasilFlagViewController.swift */,
 			);
 			path = "phw04-3-1-UIBezierPath";
 			sourceTree = "<group>";
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3216BEB2B1387F300B6A79C /* phw04-3-1-UIBezierPath */ = {
+		F3216BEB2B1387F300B6A79C /* phw05-1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3216C002B1387F400B6A79C /* Build configuration list for PBXNativeTarget "phw04-3-1-UIBezierPath" */;
+			buildConfigurationList = F3216C002B1387F400B6A79C /* Build configuration list for PBXNativeTarget "phw05-1" */;
 			buildPhases = (
 				F3216BE82B1387F300B6A79C /* Sources */,
 				F3216BE92B1387F300B6A79C /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "phw04-3-1-UIBezierPath";
+			name = "phw05-1";
 			productName = "phw04-3-1-UIBezierPath";
-			productReference = F3216BEC2B1387F300B6A79C /* phw04-3-1-UIBezierPath.app */;
+			productReference = F3216BEC2B1387F300B6A79C /* phw05-1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3216BE72B1387F300B6A79C /* Build configuration list for PBXProject "phw04-3-1-UIBezierPath" */;
+			buildConfigurationList = F3216BE72B1387F300B6A79C /* Build configuration list for PBXProject "phw05-1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3216BEB2B1387F300B6A79C /* phw04-3-1-UIBezierPath */,
+				F3216BEB2B1387F300B6A79C /* phw05-1 */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +149,10 @@
 			files = (
 				F3216BF42B1387F300B6A79C /* ViewController.swift in Sources */,
 				F3216BF02B1387F300B6A79C /* AppDelegate.swift in Sources */,
+				F3216C042B13B10E00B6A79C /* MongoliaFlagViewController.swift in Sources */,
 				F3216BF22B1387F300B6A79C /* SceneDelegate.swift in Sources */,
+				F3216C062B13B54A00B6A79C /* flag.swift in Sources */,
+				F3216C082B13D48C00B6A79C /* BrasilFlagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +356,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3216BE72B1387F300B6A79C /* Build configuration list for PBXProject "phw04-3-1-UIBezierPath" */ = {
+		F3216BE72B1387F300B6A79C /* Build configuration list for PBXProject "phw05-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3216BFE2B1387F400B6A79C /* Debug */,
@@ -353,7 +365,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3216C002B1387F400B6A79C /* Build configuration list for PBXNativeTarget "phw04-3-1-UIBezierPath" */ = {
+		F3216C002B1387F400B6A79C /* Build configuration list for PBXNativeTarget "phw05-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3216C012B1387F400B6A79C /* Debug */,
